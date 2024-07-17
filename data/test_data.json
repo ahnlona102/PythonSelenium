@@ -1,8 +1,63 @@
 {
-    "user": {
-      "username": "anhloan189",
-      "domain": "grr.la",
-      "password": "123456789"
-    },
+  "testCase1": {
+    "email": "anhloan189@grr.la",
+    "password": "123456789",
     "expected_message": "Welcome anhloan189@grr.la"
+  },
+  "testCase2": {
+    "email": "",
+    "password": "123456789",
+    "error_message": "There was a problem with your login and/or errors exist in your form."
+  },
+  "testCase3": {
+    "email": "anhloan189@grr.la",
+    "password": "",
+    "error_message": "There was a problem with your login and/or errors exist in your form."
+  },
+  "testCase4": {
+    "email": "anhloan189@grr.la",
+    "password": "123",
+    "error_message": "Invalid username or password. Please try again.",
+    "attemp_error_message": "You have used 4 out of 5 login attempts. After all 5 have been used, you will be unable to login for 15 minutes."
+  },
+  "testCase5": {
+    "email": "loan1699@grr.la",
+    "password": "123456789",
+    "error_message": "Invalid username or password. Please try again."
+  },
+  "testCase7": {
+    "email": "anhloan189@grr.la",
+    "password": "123456789",
+    "confirm_password": "123456789",
+    "passport": "123456789999",
+    "error_message": "This email address is already in use."
+  },
+  "testCase8": {
+    "username": "anhloan200722",
+    "domain": "grr.la",
+    "password": "",
+    "confirm_password": "",
+    "passport": "",
+    "error_message": "There're errors in the form. Please correct the errors and try again.",
+    "password_field_err": "Invalid password length.",
+    "passport_field_err": "Invalid ID length."
+  },
+  "testCase9": {
+    "username": "anhloan2007222",
+    "domain": "grr.la",
+    "password": "123456789",
+    "confirm_password": "123456789",
+    "passport": "965798986654",
+    "title_thanks": "Thank you for registering your account",
+    "success_message": "Registration Confirmed! You can now log in to the site."
+  },
+  "testCase16": {
+    "email": "anhloan189@grr.la",
+    "password": "123456789",
+    "depart": "Nha Trang",
+    "arrive": "Huế",
+    "depart_date": "7/3/2024",
+    "seat_type": "Soft seat with air conditioner",
+    "amount_ticket": "1"
+  }
 }
