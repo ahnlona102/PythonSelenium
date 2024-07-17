@@ -1,0 +1,8 @@
+{
+    "user": {
+      "username": "anhloan189",
+      "domain": "grr.la",
+      "password": "123456789"
+    },
+    "expected_message": "Welcome anhloan189@grr.la"
+}
